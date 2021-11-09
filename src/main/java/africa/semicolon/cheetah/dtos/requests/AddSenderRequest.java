@@ -1,9 +1,9 @@
-package africa.semicolon.cheetah.data.models;
+package africa.semicolon.cheetah.dtos.requests;
 
 import lombok.Data;
 
 @Data
-public class Sender {
+public class AddSenderRequest {
     private String emailAddress;
     private String senderName;
     private String senderPhone;
